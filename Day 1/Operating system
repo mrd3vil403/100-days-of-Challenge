@@ -1,0 +1,141 @@
+
+# Operating system
+
+An Operating system acts as an intermediary between the user of a computer and the computer hardware. The purpose of an operating system is to provide an environment in which a user can execute programs in a convenient and efficient manner.
+
+
+## Components
+
+A Computer system can be divided roughly into four components—
+
+	• Hardware
+	• Operating system
+	• Application program
+	• User
+
+
+	• CPU -: The hardware that executes instruction.
+	• Processor-: A physical chip that contains one or more CPUs.
+	• Core-: The Basic computation unit of the CPU.
+	• Multicore-: Include multiple computing cores on the same CPU.
+	• Multiprocessor-: Including Multiple processor.
+
+## Storage Structure 
+
+The CPU can load instruction only form memory, so any programs must first be loaded into memory to run.
+
+The first program run on computer power on —> Bootstrap program
+
+#### RAM is —> Volatile (when computer off lose your data)
+
+💡 The basic unit of a computer storage is the bit. A bit can contain one of two values 0 and 1. Storage is the collection of bits. A byte is 8 bits.
+
+	• Main memory is usually too small to store all needed programs and data. permanently.
+	• Main memory, as mentioned, is volatile—it loses its contents when power is turned off or otherwise lost.
+
+
+Thus, most computer systems provide secondary storage as an extension of main memory. The main requirement for secondary storage is that it be able to hold large quantities of data permanently.
+
+#### HDDs is —> Non-volatile memory (NVM)
+
+## Computer system architecture
+
+We can categorize roughly according to the number of general-purpose processor used.
+
+	• Single-Processor Systems (Using a Single Processing Core) 
+    • Multiprocessor System (Using a Two or More processors)
+    • Clustered Systems (Another Multiprocessor system is clustered system which gathers together multiple CPU)
+
+## Components
+
+A Computer system can be divided roughly into four components—
+
+	• Hardware
+	• Operating system
+	• Application program
+	• User
+
+
+	• CPU -: The hardware that executes instruction.
+	• Processor-: A physical chip that contains one or more CPUs.
+	• Core-: The Basic computation unit of the CPU.
+	• Multicore-: Include multiple computing cores on the same CPU.
+	• Multiprocessor-: Including Multiple processor.
+
+## Resource Management
+
+	1. Process Management
+	
+	The operating system is responsible for the following activities in connection with process management: 
+	
+		○ Creating and deleting both user and system processes 
+		○ Scheduling processes and threads on the CPUs 
+		○ Suspending and resuming processes 
+		○ Providing mechanisms for process synchronization 
+		○ Providing mechanisms for process communication
+
+	2. Memory Management
+
+	The operating system is responsible for the following activities in connection with memory management: 
+	
+		○ Keeping track of which parts of memory are currently being used and which process is using them 
+		○ Allocating and deallocating memory space as needed 
+		○ Deciding which processes (or parts of processes) and data to move into and out of memory
+	
+	3. File-System Management
+	
+	The operating system is responsible for the following activities in connection with file management: 
+	
+		○ Creating and deleting files 
+		○ Creating and deleting directories to organize files 
+		○ Supporting primitives for manipulating files and directories 
+		○ Mapping files onto mass storage 
+		○ Backing up files on stable (non-volatile) storage media 
+	
+	4. Mass-Storage Management
+	
+	The operating system is responsible for the following activities in connection with secondary storage management: 
+	
+		○ Mounting and unmounting 
+		○ Free-space management 
+		○ Storage allocation 
+		○ Disk scheduling 
+		○ Partitioning 
+		○ Protection
+	
+	5. Cache Management
+	
+	Caching is an important principle of computer systems. Here’s how it works. Information is normally kept in some storage system (such as main memory). As it is used, it is copied into a faster storage system— the cache—on a temporary basis. When we need a particular piece of information, we first check whether it is in the cache. If it is, we use the information directly from the cache. 
+							
+	
+	6. I/O System Management
+
+	The I/O subsystem consists of several components:
+	 
+		○ A memory-management component that includes buffering, caching, and spooling 
+		○ A general device-driver interface 
+		○ Drivers for specific hardware device
+
+## kernel
+
+The kernel is a core component of an operating system and serves as the main interface between the computer’s physical hardware and the processes running on it. The kernel enables multiple applications to share hardware resources by providing access to CPU, memory, disk I/O, and networking.
+
+## Algorithms
+
+A series of steps that solves specific problems.
+
+## ASCII
+
+The oldest character encoding standard used is ASCII. It repersents the english alphabet, digits, and puncution marks.
+
+## Binary System
+
+The communication that a computer users is referred to as binary system also known as base-2 numeral system.
+
+## Byte
+
+A group of 8 bits.
+
+## character encoding
+
+Is used to assign our binary values to characters so that we as humans can read them.
