@@ -10,7 +10,6 @@ Welcome to my **100 Days Cybersecurity Challenge** repository! This project docu
 - [Rules](#rules)
 - [Projects and Progress](#projects-and-progress)
 - [Resources](#resources)
-- [Log](#log)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -32,6 +31,10 @@ Welcome to my **100 Days Cybersecurity Challenge** repository! This project docu
 ## Projects and Progress
 
 All project listed in folder so checkout.
+
+## Resources
+
+All resources listed in day's folder so checkout.
 
 ## Contributing
 
